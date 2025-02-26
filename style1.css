@@ -1,0 +1,115 @@
+.container{
+    display:flex;
+    align-items: center;
+    background-color: green;
+    justify-content:center;
+    gap:20px;
+    /* height:#; */
+}
+.heading1{
+    background-color:yellow; 
+    text-align: center;
+    position: relative;
+}
+.he2{
+    justify-content: center;
+    display: flex;
+    align-items:center ;
+}
+.heading2{
+    text-align: center;
+    color: aliceblue;
+
+}
+.left{
+    position:absolute;
+    left:0;
+    top:0;
+    height:100px;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    mix-blend-mode: multiply;
+    padding-top:.5rem ;
+    padding-right:.5rem;
+    padding-left:.75rem ;
+}
+.right{
+    position:absolute;
+    right:0;
+    top:0;
+    height:100px;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    mix-blend-mode: multiply;
+    padding-top:.5rem ;
+    padding-right:.75rem;
+    padding-left:.75rem ;
+}
+.conatiner2 header{
+    align-items:center ;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font: 1.25em sans-serif;
+}
+.header a{
+    text-decoration: none;
+}
+.hed3{
+    color:blue;
+    text-align: center;
+}
+.head4{
+    color:red;
+    text-align: center;
+}
+.img2{
+    height:200px;
+    width: 200px;
+    /* border:1px black solid ;
+    mix-blend-mode: multiply; */
+}
+.container3{
+    align-items: center;
+    display: flex;
+    /* justify-content: center; */
+}
+.leftbox{
+    background-color: blanchedalmond;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    height:318px;
+    text-align: center;
+}
+.leftbox a{
+    text-decoration: none;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    
+}
+.rightbox{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    background-color: orange ;
+    text-align: center;
+    width:100%;
+    margin: 0 auto; 
+}
+a:visited {
+    color:purple; 
+}
+a:hover {
+    color: rgb(0, 0, 0); 
+}
+a:active {
+    color: green; 
+}
